@@ -38,6 +38,9 @@ body {
 }
 
 .card {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 70em;
   padding: 1.4em;
   position: relative;
   background: $white;
@@ -53,16 +56,6 @@ body {
         -ms-flex-align: center;
         align-items: center
     }
-}
-
-.container-120 {
-    max-width: 120em;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.header-avatar {
-  max-width: 40%;
 }
 
 .header-intro {
