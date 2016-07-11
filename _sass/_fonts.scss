@@ -1,7 +1,34 @@
+/**********************/
+/*   BEST PRACTICES   */
+/**********************/
+
+// http://maxvoltar.com/archive/-webkit-font-smoothing
+// https://davidwalsh.name/font-smoothing
+// https://maximilianhoffmann.com/posts/better-font-rendering-on-osx
+// http://codepen.io/macx/pen/qmkje
+@mixin font-smoothing($value: on) {
+    @if $value == on {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    @else {
+        -webkit-font-smoothing: subpixel-antialiased;
+        -moz-osx-font-smoothing: auto;
+    }
+}
+
+// Usage
+// .dark-on-light {
+//     @include font-smoothing(off);
+// }
+//
+// .light-on-dark {
+//     @include font-smoothing(on);
+// }
+
 /***************/
 /*   SOURCES   */
 /***************/
-
 
 @font-face {
   font-family: 'Noto Sans';
