@@ -24,16 +24,11 @@ header {
     @include centered-content;
 }
 
-// .header {
-//   display: block;
-//   // display: flex;
-// }
-
 body {
 	background: $gray-extra-light;
   font: 18px/1.6 $base-font-family;
   color: $dark-gray;
-  // overflow-x: hidden;
+  overflow-x: hidden;
   @include font-smoothing(off);
 }
 
@@ -47,8 +42,16 @@ body {
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
+.landing-image {
+  max-width: 100%;
+  // height: auto;
+  // vertical-align: middle;
+}
+
 .landing-description {
    margin-left: 1.4em;
 }
+
+
 
 @import "responsive_style";
