@@ -5,21 +5,29 @@
 /*   IMPORTS   */
 /***************/
 
+@import "variables";
 @import "fonts";
 @import "colors";
 @import "reset";
 @import "browser_compatibility";
 
-// @import "variables";
-// Syntax highlighting @import is at the bottom of this file
-
 /**************/
 /* BASE RULES */
 /**************/
+header {
+  display: block;
+}
 
 .header {
-  display: flex;
+    position: relative;
+    padding: 1em;
+    @include centered-content;
 }
+
+// .header {
+//   display: block;
+//   // display: flex;
+// }
 
 body {
 	background: $gray-extra-light;
@@ -27,10 +35,6 @@ body {
   color: $dark-gray;
   // overflow-x: hidden;
   @include font-smoothing(off);
-}
-
-.header {
-  padding: 5em 1.2em;
 }
 
 .card {
@@ -42,27 +46,6 @@ body {
   background: $white;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
-
-@media screen and (min-width: 48em) { // THIS SHOULD BE IN PX
-    .card {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center
-    }
-}
-
-.centered-content {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center
-}
-
 
 .landing-description {
    margin-left: 1.4em;

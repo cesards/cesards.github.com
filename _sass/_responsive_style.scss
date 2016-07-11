@@ -1,4 +1,22 @@
-@media screen and (max-width: 1280px) { // THIS SHOULD BE IN PX
+@media screen and (min-width: 768px) { // THIS SHOULD BE IN PX
+  .card {
+      @include centered-content;
+  }
+
+  body {
+    font: 14px/1.6 $base-font-family;
+  }
+
+  .header {
+    padding: 2em 1em;
+  }
+
+  .landing-image {
+    max-width: 35%;
+  }
+}
+
+@media screen and (min-width: 1280px) { // THIS SHOULD BE IN PX
   body {
     font: 16px/1.6 $base-font-family;
   }
@@ -12,18 +30,10 @@
   }
 }
 
-@media screen and (max-width: 1024px) { // THIS SHOULD BE IN PX
-  body {
-    font: 14px/1.6 $base-font-family;
-  }
 
-  .header {
-    padding: 2em 1em;
-  }
 
-  .landing-image {
-    max-width: 35%;
-  }
-}
+
+
+
 
 // @media screen and (min-device-width: 700px) { // THIS SHOULD BE IN PX
