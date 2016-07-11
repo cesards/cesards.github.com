@@ -1,0 +1,13 @@
+@media screen and (max-width: 1280px) { // THIS SHOULD BE IN PX
+  body {
+    font: 16px/1.6 $base-font-family;
+  }
+
+  .header {
+    padding: 2.5em 1em;
+  }
+
+  .landing-image {
+    max-width: 40%;
+  }
+}
