@@ -17,17 +17,13 @@
 /* BASE RULES */
 /**************/
 
-// html, body, header {
-//   min-height: 50vh; // USELESS POR AHORA
-// }
-
 .header {
   display: flex;
 }
 
 body {
 	background: $gray-extra-light;
-  font: 18px/1.4 $base-font-family;
+  font: 18px/1.6 $base-font-family;
   color: $dark-gray;
   // overflow-x: hidden;
   @include font-smoothing(off);
@@ -47,7 +43,7 @@ body {
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 48em) { // THIS SHOULD BE IN PX
     .card {
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -58,10 +54,6 @@ body {
     }
 }
 
-.header-intro {
-   margin-left: 1.4em;
-}
-
 .centered-content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -70,3 +62,10 @@ body {
   -ms-flex-align: center;
   align-items: center
 }
+
+
+.landing-description {
+   margin-left: 1.4em;
+}
+
+@import "responsive_style";
