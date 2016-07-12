@@ -30,12 +30,7 @@
 /*   SOURCES   */
 /***************/
 
-@font-face {
-  font-family: 'Noto Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Noto Sans'), local('NotoSans'), url(http://themes.googleusercontent.com/static/fonts/notosans/v1/LeFlHvsZjXu2c3ZRgBq9nLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-}
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
 
 
 /****************/
