@@ -14,29 +14,7 @@ description: Spanish Computer Engineer living in London.
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-
-
-
-
-
-
-
-
-
-
-# Includes an icon in the footer for each username you enter
-personal-links:
-  dribbble: cesards/buckets
-  email: cesaryomismo@gmail.com
-  github: cesards
-  linkedin: linkedin.com/in/cesardiezsanchez
-  pinterest: menorking
-  twitter: menorking
-  stackoverflow: users/689723/cesards
-  googleplus: 115273462230054581675
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+social_email: cesaryomismo@gmail.com
 
 #################################
 #### Site configuration flags ###

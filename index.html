@@ -12,12 +12,9 @@ layout: default
 
     <div class="landing-description">
       <div class="container-intro">
-        <p>Hi there! My name is <strong>César Díez</strong>. This is my
-          landing page, in which you can find all my personal and
-          professional project references. I am a Spanish Computer Engineer
-          living in Richmond (London).</p>
-        <br>
-        <p>I love doing sport, cinema and trying new things in general</p>
+        <p>Hi there! My name is <strong>César Díez</strong> and I am a Spanish
+          Computer Engineer living in Richmond (London). I do Android apps for
+          living, but I also love doing Sport, Cinema and Computers, of course.</p>
         <br>
         <p>If you want to know about what I do, have a look to all my sites:</p>
         <ul>
@@ -30,17 +27,8 @@ layout: default
         </lu>
       </div>
       <br>
-      <div class="container-social-icons">
-        <p>You can also find me on:</p>
-        <a href="https://dribbble.com/{{ site.personal-links.dribbble }}"><i class="svg-icon dribbble"></i></a>
-        <!-- <a href="mailto:{{ site.personal-links.email }}"><i class="svg-icon email"></i></a> -->
-        <a href="https://github.com/{{ site.personal-links.github }}"><i class="svg-icon github"></i></a>
-        <a href="https://www.linkedin.com/in/{{ site.personal-links.linkedin }}"><i class="svg-icon linkedin"></i></a>
-        <a href="https://www.pinterest.com/{{ site.personal-links.pinterest }}"><i class="svg-icon pinterest"></i></a>
-        <a href="https://www.twitter.com/{{ site.personal-links.twitter }}"><i class="svg-icon twitter"></i></a>
-        <a href="http://stackoverflow.com/{{ site.personal-links.stackoverflow }}"><i class="svg-icon stackoverflow"></i></a>
-        <a href="https://plus.google.com/{{ site.personal-links.googleplus }}"><i class="svg-icon googleplus"></i></a>
-      </div>
+      {% include analytics.html %}
+      {% include social_icons.html %}
     </div>
   </div>
 </header>
