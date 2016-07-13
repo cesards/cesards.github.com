@@ -23,6 +23,10 @@ body {
   @include font-smoothing(off);
 }
 
+html, body, .header {
+    min-height: 100vh; // Makes the content centered.
+}
+
 ul {
   list-style-type: disc;
   padding-left: 1.8em
@@ -65,7 +69,6 @@ strong {
 
 header {
   display: block;
-	min-height: 100vh;
 }
 
 img {
