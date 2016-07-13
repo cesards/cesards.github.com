@@ -1,14 +1,14 @@
-$(document).ready(function(){
-  $(window).resize();
-});
-
-$(window).resize(function(){
-    $("header").css({
-        position:'absolute',
-        left: ($(window).width() - $("header").outerWidth())/2,
-        top: ($(window).height() - $("header").outerHeight())/2
-    });
-});
+// $(document).ready(function(){
+//   $(window).resize();
+// });
+// 
+// $(window).resize(function(){
+//     $("header").css({
+//         position:'absolute',
+//         left: ($(window).width() - $("header").outerWidth())/2,
+//         top: ($(window).height() - $("header").outerHeight())/2
+//     });
+// });
 
 // It does the same as above, but using jQuery
 // $(document).ready(function(){
