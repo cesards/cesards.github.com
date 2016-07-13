@@ -17,7 +17,7 @@
 
 body {
 	background: $gray-extra-light;
-  font: 18px/1.6 $base-font-family;
+  font: 1em/1.8 $base-font-family;
   color: $dark-gray;
   overflow-x: hidden;
   @include font-smoothing(off);
@@ -67,6 +67,11 @@ header {
   display: block;
 }
 
+img {
+  max-width: 100%;
+	display: flex;
+}
+
 .header {
   position: relative;
   padding: 1em;
@@ -87,16 +92,8 @@ picture {
   // FIXME: There is a small padding on the bottom of the image. Solve this
 }
 
-img {
-  max-width: 100%;
-}
-
 .landing-description {
   margin: 1.4em 0 0 0;
-}
-
-.landing-description p:last-of-type {
-
 }
 
 /***************/
@@ -104,3 +101,4 @@ img {
 /***************/
 
 @import "responsive_style";
+@import "svg-icons";
