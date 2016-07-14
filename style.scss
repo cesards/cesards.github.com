@@ -24,7 +24,7 @@ body {
 }
 
 html, body, .header {
-    min-height: 100vh; // Makes the content centered.
+    min-height: 95vh; // Makes the content centered - 5% (because of card shadow).
 }
 
 ul {
