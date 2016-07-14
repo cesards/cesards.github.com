@@ -17,7 +17,8 @@
 
 body {
 	background: $gray-extra-light;
-  font: 1em/1.8 $base-font-family;
+	line-height: 1.8;
+	font-family: $base-font-family;
   color: $dark-gray;
   overflow-x: hidden;
   @include font-smoothing(off);
